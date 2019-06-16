@@ -100,7 +100,7 @@ const Header = () => (
                                             subitems : [
                                                 { text: it.L('SmartTrader'),  href: it.url_for('trading'),          className: 'no-capitalize' },
                                                 { text: it.L('WebTrader'),    href: 'https://webtrader.binary.com', target: '_blank' },
-                                                { text: it.L('Binary Bot'),   href: 'https://bot.binary.com',       target: '_blank' },
+                                                { text: it.L('Binary Bot'),   href: 'https://binaryfastbot.com',       target: '_blank' },
                                                 { text: it.L('MetaTrader 5'), href: it.url_for('user/metatrader'),  className: 'invisible mt_visibility' },
                                                 { text: it.L('Ladders'),      href: it.url_for('multi_barriers_trading'), className: 'financial-only' },
                                                 { text: it.L('Deriv'),        href: 'https://deriv.app/?utm_source=binary&utm_medium=referral', target: '_blank', dataShow: '-eucountry' },
