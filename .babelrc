@@ -1,0 +1,21 @@
+{
+    "presets": ["env", "stage-1", "react"],
+    "plugins": [
+        "transform-decorators-legacy",
+        "transform-object-rest-spread",
+        "transform-class-properties",
+        "babel-plugin-syntax-dynamic-import",
+        [
+            "module-resolver",
+            {
+                "root": [
+                    "./src/javascript"
+                ],
+                "alias": {
+                    "_common"  : "./src/javascript/_common",
+                    "Images"   : "./src/images/"
+                }
+            }
+        ]
+    ]
+}
